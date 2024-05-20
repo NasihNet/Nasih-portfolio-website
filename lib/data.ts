@@ -87,36 +87,43 @@ export const projectsData = [
   {
     title: "Mitsubishi Next Banking System",
     description:
-      "The system want to migrate to the new operating system. my task is to fix all the bugs and issue",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "The system want to migrate to the new operating system. My task is to fix all the bugs and issue",
+    tags: ["C++", "VB", "WinForm"],
     imageUrl: wordanalyticsImg,
   },
   {
     title: "SAP Fiori",
     description:
       "Production planning system allow to track raw material in Inhose or from supplier.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["SAP UI5", "BAPI", "SAP S4", "SAP Hana"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "TeamStore DX",
+    description:
+      "Point Of Sales Sytem.",
+    tags: ["HTML", ".NET", "C#", "Batch Scripting","MSSQL"],
     imageUrl: wordanalyticsImg,
   },
   {
     title: "Anaplan Power BI",
     description:
       "A public web app for data analytic, worked as model builder in this project",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Anaplan"],
     imageUrl: wordanalyticsImg,
   },
   {
     title: "Lonpac Insurance ",
     description:
       "Maintain and support new feature for all Loanpac insurance system from backoffice, customer-site and cms.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Angular", ".Net Core", "C#", "MSSQL", "DNN CMS", "Knockout JS"],
     imageUrl: wordanalyticsImg,
   },
   {
     title: "KerjaBaikBaik ",
     description:
       "A public web app that allow user to add review for employee. If a company want to hire someone they can use that platform to make backgroudn checking.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["React", "Next.js","TypeScript", ".Net Core", "Tailwind", "Docker", "C#", "MSSQL"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;

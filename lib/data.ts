@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { SiNextdotjs } from 'react-icons/si';
 
 export const links = [
   {
@@ -35,50 +36,86 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Analyst Programmer",
+    location: "Teknomatrik Sdn Bhd",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After serve as interns they take as permenanet employee. They assigned me as Analyst Programmer",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer",
+    location: "Dynisco",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a software engineer almost 3 years in Dynisco my task mostly as fullstack developer. I learned web development here and the stack is React, .Net Core, Microsoft Azure and Azure SQL.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Senior System Engineer",
+    location: "Fujitsu System Global Solution ",
+    description:
+      "Joined few project in Fujitsu from banking, ERP and Power BI. Guide junior, perform code reviews.",
+    icon: React.createElement(FaReact),
+    date: "2021 - 2023",
+  },
+  {
+    title: "Fullstack Developer",
+    location: "ABOD Technology Services ",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    icon: React.createElement(SiNextdotjs),
+    date: "May 2023 - Mar 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ship Handling Simulator",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Allow navy to train handling ship ",
+    tags: ["WinForm", ".Net", "C#", "MSSQL", "Unity"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Dynisco Cloud Connect",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Cloud-based system designed to gather and manage real-time data from various manufacturing devices, helping companies improve production efficiency and product quality.",
+    tags: ["React", "Javascript", ".Net Core", "C#", "Azure Cloud Service"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Mitsubishi Next Banking System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "The system want to migrate to the new operating system. my task is to fix all the bugs and issue",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "SAP Fiori",
+    description:
+      "Production planning system allow to track raw material in Inhose or from supplier.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Anaplan Power BI",
+    description:
+      "A public web app for data analytic, worked as model builder in this project",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Lonpac Insurance ",
+    description:
+      "Maintain and support new feature for all Loanpac insurance system from backoffice, customer-site and cms.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "KerjaBaikBaik ",
+    description:
+      "A public web app that allow user to add review for employee. If a company want to hire someone they can use that platform to make backgroudn checking.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
@@ -91,17 +128,13 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+  "Angular",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  ".Net",
+  "C#",
+  "VB",
+  "Java",
+  "SAP",
 ] as const;

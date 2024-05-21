@@ -87,14 +87,14 @@ export const projectsData = [
   {
     title: "Mitsubishi Next Banking System",
     description:
-      "The system want to migrate to the new operating system. My task is to fix all the bugs and issue",
+      "ATM Machine Application.",
     tags: ["C++", "VB", "WinForm"],
     imageUrl: wordanalyticsImg,
   },
   {
     title: "SAP Fiori",
     description:
-      "Production planning system allow to track raw material in Inhose or from supplier.",
+      "Production planning system allow to track raw material inhouse or from supplier.",
     tags: ["SAP UI5", "BAPI", "SAP S4", "SAP Hana"],
     imageUrl: wordanalyticsImg,
   },
@@ -108,7 +108,7 @@ export const projectsData = [
   {
     title: "Anaplan Power BI",
     description:
-      "A public web app for data analytic, worked as model builder in this project",
+      "A web app for data analytic, worked as model builder in this project",
     tags: ["Anaplan"],
     imageUrl: wordanalyticsImg,
   },
